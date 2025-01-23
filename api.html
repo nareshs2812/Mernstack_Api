@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun with Jokes, Charts, Quotes, and Images</title>
+    <link rel="stylesheet" href="api.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Quotes,Random Jokes and Images</h1>
+
+
+    <section id="sn">
+        <button id="quoteBtn">Get Quote</button>
+        <h2>Quote of the Day</h2>
+        <div id="quote"></div>
+    </section>
+    <section id="sn">
+        <h2>Random Jokes</h2>
+        <button id="jokeBtn">Get a Joke</button><br>
+        <br>
+        <div id="joke"></div>
+    </section>
+ 
+    <section id="sn">
+        <h2>Dog Image</h2>
+        <button id="randomImageBtn">Get Random Images</button>
+        <div>
+            <h3>Random Dog</h3>
+            <img id="randomDogImage" alt="Random Dog" height="150" width="150">
+        </div>
+    </section>
+    
+
+
+    <script src="api.js"></script>
+</body>
+</html>
